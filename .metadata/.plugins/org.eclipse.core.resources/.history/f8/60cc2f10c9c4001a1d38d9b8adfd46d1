@@ -1,0 +1,25 @@
+package com.biz.score.exec;
+
+import com.biz.score.service.ScoreService;
+import com.biz.score.service.ScoreServiceImpl;
+
+public class ScoreEx {
+	
+	public static void main(String[] args) {
+		
+		ScoreService sServ = new ScoreServiceImpl();
+		sServ.load();
+		
+		while(true) {
+			sServ.inputScore();
+			sServ.calcSum();
+			sServ.calcAvg();
+			if(!sServ.inputScore()) {
+				break;
+			}
+		}
+		
+	}
+	
+	
+}

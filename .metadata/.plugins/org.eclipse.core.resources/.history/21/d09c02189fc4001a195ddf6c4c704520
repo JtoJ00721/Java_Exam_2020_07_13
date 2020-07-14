@@ -1,0 +1,33 @@
+package com.biz.grade.exec;
+
+import com.biz.grade.domain.ScoreVO;
+
+public class ScoreEx_02 {
+
+	public static void main(String[] args) {
+		
+		ScoreVO scoreVO = new ScoreVO();
+		
+		/*
+		 * 클래스를 사용해서 만든 객체 인스턴스를
+		 * System.out.print*() method에 전달하면
+		 * print*()는 자동으로 객체인스턴스의 .toString() method를 호출하도록
+		 * 내부에 코딩이 되어있다.
+		 * .toString() method는 클래스의 최상위 부모인 Object 클래스에
+		 * 상속받은 method이다
+		 * 별도로 .toString method를 재 정의하지 않으면
+		 * Object 클래스에 구현된 코드가 실행된다.
+		 */
+		System.out.println(scoreVO); // .toString()을 붙이지 않아도
+									 // 자동으로 .toString코드를 실행한다.
+		System.out.println(scoreVO.toString());
+		
+		// 이미 생성된 score3VO객체를 다시 생성자를 호출하여 만들기
+		scoreVO = new ScoreVO();
+		System.out.println(scoreVO);
+		
+		
+	}
+	
+	
+}

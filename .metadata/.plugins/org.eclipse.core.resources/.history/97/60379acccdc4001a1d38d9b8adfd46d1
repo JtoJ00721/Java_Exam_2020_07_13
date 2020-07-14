@@ -1,0 +1,62 @@
+package com.biz.score.exec;
+
+import java.util.Scanner;
+
+import com.biz.score.service.ScoreService;
+import com.biz.score.service.ScoreServiceImpl;
+
+public class ScoreEx {
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		ScoreService sServ = new ScoreServiceImpl();
+		sServ.load();
+		
+		while(true) {
+			
+			System.out.println("(숫자) 1 : 성적 입력");
+			System.out.println("(숫자) 2 : 성적 출력");
+			System.out.println("(숫자) 3 : 성적 등록");
+			System.out.println("quit : 종료");
+			
+			System.out.print("\n\n할 작업을 선택하세요>>");
+			
+			String strPick = scan.nextLine();
+			if(strPick.equals("quit")) {
+				break;
+			}
+			int intPick = 0;
+			try {
+				intPick = Integer.valueOf(strPick);
+			} catch (Exception e) {
+				System.out.println("작업 번호는 숫자만 선택해 주세요 ><");
+				continue;
+			}
+			
+			if(intPick == 1) {
+				while(true) {
+					if(!sServ.inputScore()) {
+						break;
+					}
+				}
+			} else if(intPick == 2) {
+				sServ.getList();
+			} else if(intPick == 3) {
+				while(sServ.inputScore());
+				sServ.calcSum();
+				sServ.calcAvg();
+			}
+				else {
+			}
+				System.out.println("올바른 명령어를 입력해주세요 ><");
+				continue;
+			}
+		System.out.println("\n\n종료지롱 ><");
+		}
+		
+		
+	}
+	
+	
+

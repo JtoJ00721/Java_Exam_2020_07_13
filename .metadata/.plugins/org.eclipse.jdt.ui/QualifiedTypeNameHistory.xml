@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.biz.grade.config.Lines"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.ScoreService"/>
+<fullyQualifiedTypeName name="com.biz.grade.config.DBContract"/>
+<fullyQualifiedTypeName name="com.biz.grade.config.DBContract.MENU"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.StudentService"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.StudentServiceImplV1"/>
+<fullyQualifiedTypeName name="com.biz.grade.domain.StudentVO"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="com.address.model.AddVO"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.biz.grade.domain.ScoreVO"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.biz.grade.service.ScoreServiceImplV1"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="pp.VO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.biz.score.domain.ScoreVO"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.biz.score.service.ScoreService"/>
+<fullyQualifiedTypeName name="com.biz.score.service.ScoreServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+</qualifiedTypeNameHistroy>

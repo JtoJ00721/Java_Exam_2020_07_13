@@ -1,0 +1,16 @@
+package com.biz.grade.exec;
+
+import com.biz.grade.domain.ScoreVO;
+
+public class ScoreEx_02 {
+
+	public static void main(String[] args) {
+		
+		ScoreVO scoreVO = new ScoreVO();
+		
+		System.out.println(scoreVO);
+		
+	}
+	
+	
+}

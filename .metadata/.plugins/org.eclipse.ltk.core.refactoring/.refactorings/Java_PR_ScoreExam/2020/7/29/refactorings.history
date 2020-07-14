@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.biz.score.service.ScoreServiceImplV1&apos; to &apos;ScoreServiceImpl&apos;&#x0D;&#x0A;- Original project: &apos;Java_PR_ScoreExam&apos;&#x0D;&#x0A;- Original element: &apos;com.biz.score.service.ScoreServiceImplV1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.biz.score.service.ScoreServiceImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ScoreServiceImplV1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.biz.score.service{ScoreServiceImplV1.java[ScoreServiceImplV1" matchStrategy="1" name="ScoreServiceImpl" qualified="false" references="true" similarDeclarations="false" stamp="1594617576207" textual="false" version="1.0"/>
+</session>
