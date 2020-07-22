@@ -42,8 +42,7 @@ public class ScoreEx {
 				sServ.getList();
 				sServ.writeList();
 				
-			}
-			else {
+			}else {
 				System.out.println("올바른 명령어를 입력해주세요 ><");
 				continue;
 				}

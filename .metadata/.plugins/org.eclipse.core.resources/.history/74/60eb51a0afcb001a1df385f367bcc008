@@ -72,6 +72,7 @@ public class ScoreServiceImpl implements ScoreService {
 			buffer.close();
 			fileReader.close();
 		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 			System.out.println("점수 파일 열기 오류");
 		} catch (IOException e) {
 			System.out.println("점수 파일 읽기 오류");
@@ -103,7 +104,7 @@ public class ScoreServiceImpl implements ScoreService {
 		
 		for(ScoreVO sVO : scoreList) {
 			if(sVO.getNum().equals(strNum)) {
-				System.out.println(strNum + "학생의 성적정보가 이미 있습니다. ><");
+				System.out.println(strNum + "학생의 정보가 이미 있습니다. ><");
 				return true;
 			}
 		}
@@ -325,7 +326,8 @@ public class ScoreServiceImpl implements ScoreService {
 			pStream.println("=============================================================");
 			pStream.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("파일이 없습니다 ><");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 				
 

@@ -67,6 +67,8 @@ public class ScoreServiceImpl implements ScoreService {
 			scoreVO.setEng(Integer.valueOf(scores[2]));
 			scoreVO.setMath(Integer.valueOf(scores[3]));
 			scoreVO.setMusic(Integer.valueOf(scores[4]));
+			scoreVO.setSum(Integer.valueOf(scores[5]));
+			scoreVO.setAvg(Float.valueOf(scores[6]));
 			scoreList.add(scoreVO);
 			}
 			buffer.close();
@@ -264,7 +266,9 @@ public class ScoreServiceImpl implements ScoreService {
 			pWriter.printf("%d:", scoreVO.getKor());
 			pWriter.printf("%d:", scoreVO.getEng());
 			pWriter.printf("%d:", scoreVO.getMath());
-			pWriter.printf("%d\n", scoreVO.getMusic());
+			pWriter.printf("%d:", scoreVO.getMusic());
+			pWriter.printf("%d:", scoreVO.getSum());
+			pWriter.printf("%d\n", scoreVO.getAvg());
 			
 			pWriter.flush();
 			pWriter.close();

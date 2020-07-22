@@ -85,7 +85,7 @@ public class ScoreServiceImpl implements ScoreService {
 		System.out.println("학번(end:프로그램 종료)");
 		System.out.print(">>");
 		String strNum = scan.nextLine();
-		if(strNum.equals("end")) {
+		if(strNum.equalsIgnoreCase("end")) {
 			return false;
 		}
 		int intNum = 0;
@@ -325,7 +325,8 @@ public class ScoreServiceImpl implements ScoreService {
 			pStream.println("=============================================================");
 			pStream.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("파일이 없습니다 ><");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 				
 

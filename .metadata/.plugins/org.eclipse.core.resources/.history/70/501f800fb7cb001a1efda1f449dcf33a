@@ -264,7 +264,9 @@ public class ScoreServiceImpl implements ScoreService {
 			pWriter.printf("%d:", scoreVO.getKor());
 			pWriter.printf("%d:", scoreVO.getEng());
 			pWriter.printf("%d:", scoreVO.getMath());
-			pWriter.printf("%d\n", scoreVO.getMusic());
+			pWriter.printf("%d:", scoreVO.getMusic());
+			pWriter.printf("%d:", scoreVO.getSum());
+			pWriter.printf("%d:", scoreVO.getAvg());
 			
 			pWriter.flush();
 			pWriter.close();

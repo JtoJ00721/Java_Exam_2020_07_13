@@ -1,5 +1,0 @@
-package com.biz.grade.service;
-
-public interface ScoreService {
-
-}
